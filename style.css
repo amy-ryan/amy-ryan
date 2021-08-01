@@ -1,0 +1,142 @@
+/*colors and fonts */
+
+body {
+  background-color: #FEFEFE;
+  color: #425466;
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+  h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+  }
+  h1 {
+    color: #425466;
+    font-size: 30px;
+    font-weight: 900;
+  }
+
+  h2 {
+    color: #6459F6;
+    font-size: 22px;
+    font-weight: 400;
+  }
+
+
+    a {
+      font-family: 'Roboto', sans-serif;
+      text-decoration: none;
+      color: #57D4F9;
+      font-weight: 400;
+      font-size: 16px;
+      transition: color 0.3s ease;
+
+    }
+
+      a:hover {
+          color: black;
+          text-decoration: underline;
+      }
+
+
+/*custom design with class (99% of your design)*/
+
+  .img-circle {
+    border-radius: 50%;
+    box-shadow: 3px 3px 4px #6459F6;
+    border: 4px solid skyblue;
+    margin-top: 10px;
+  }
+
+
+  .btn-blue {
+    background-color: #57D4F9;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+
+  }
+
+  .btn-blue:hover {
+    background-color: #6459F6;
+    color: white;
+
+  }
+
+  .list-inline{
+    list-style: none;
+    padding-left: 0px;
+  }
+
+  .list-inline li{
+    display: inline;
+    padding: 10px;
+  }
+
+  .list-inline i {
+   font-size: 50px;
+   color: rgb(200, 200, 200);
+  }
+
+  .list-inline i:hover {
+    color: #6459F6;
+  }
+
+  /*custom design with class (1% of your design)*/
+    #Sports p {
+    margin-bottom: 40px;
+    }
+
+
+    .container {
+          width: 700px;
+          margin: 40px auto;
+       }
+
+    .card-white {
+      background-color: white;
+      padding: 40px;
+      box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+      border-radius: 4px;
+      margin: 20px 0px;
+      text-align: center;
+    }
+
+    .card-white:hover {
+      background-color: whitesmoke;
+    }
+
+      @media (max-width: 960px) {
+        .container {
+          width: 700px;
+          margin: 40px auto;
+        }
+      }
+
+      @media (max-width: 720px) {
+        .container {
+          width: 500px;
+          margin: 40px auto;
+        }
+      }
+
+      @media (max-width: 540px) {
+        .container {
+          width: 400px;
+          margin-right: 40px;
+          margin-left: 40px;
+        }
+      }
+
+    }
+
+
+
+
+
+
+
+
+
+
